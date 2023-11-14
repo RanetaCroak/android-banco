@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/userpic" />
+
+        <TextView
+            android:id="@+id/saludo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/bienvenido_user"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:navigationIcon="@drawable/baseline_menu_24"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_account_balance_24"
+        app:layout_anchor="@id/bottomAppBar"
+        android:contentDescription="@string/bot_n_banco"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

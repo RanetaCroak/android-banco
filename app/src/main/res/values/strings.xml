@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Banco_alcala</string>
+    <string name="fondo">fondo</string>
+    <string name="bienvenido">Bienvenido a tu app bancaria</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="introduce_el_usuario">Introduce el usuario</string>
+    <string name="introduce_la_contrase_a">Introduce la contraseña</string>
+    <string name="salir">Salir</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="bienvenido_user">Bienvenido user</string>
+    <string name="userpic">userPic</string>
+    <string name="bot_n_banco">Botón banco</string>
+</resources>
