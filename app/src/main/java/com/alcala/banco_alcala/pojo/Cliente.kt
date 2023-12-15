@@ -1,6 +1,5 @@
 package com.alcala.banco_alcala.pojo
 
-import com.example.bancoapiprofe.pojo.Cuenta
 import java.io.Serializable
 
 class Cliente : Serializable {

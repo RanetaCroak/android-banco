@@ -4,9 +4,9 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
-import com.alcala.banco_alcala.dao.ClienteDAO
-import com.alcala.banco_alcala.dao.CuentaDAO
-import com.alcala.banco_alcala.dao.MovimientoDAO
+import com.example.bancoapiprofe.dao.ClienteDAO
+import com.example.bancoapiprofe.dao.CuentaDAO
+import com.example.bancoapiprofe.dao.MovimientoDAO
 
 class MiBD
 /**

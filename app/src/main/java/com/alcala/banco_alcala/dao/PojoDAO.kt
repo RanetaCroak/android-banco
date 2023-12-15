@@ -1,4 +1,4 @@
-package com.alcala.banco_alcala.dao
+package com.example.bancoapiprofe.dao
 
 interface PojoDAO {
     fun add(obj: Any?): Long

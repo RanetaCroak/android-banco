@@ -1,10 +1,10 @@
-package com.alcala.banco_alcala.dao
+package com.example.bancoapiprofe.dao
 
 import android.content.ContentValues
 import android.database.Cursor
+import com.alcala.banco_alcala.bd.MiBD
+import com.alcala.banco_alcala.pojo.Cuenta
 import com.alcala.banco_alcala.pojo.Movimiento
-import com.example.bancoapiprofe.pojo.Cuenta
-import com.example.bancoapiprofe.pojo.Movimiento
 import java.lang.String
 import java.util.Date
 import kotlin.Any
