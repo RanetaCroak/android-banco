@@ -19,5 +19,8 @@ class MainActivity : AppCompatActivity() {
         binding.saludo.text = "Bienvenido/a $userInput"
         setContentView(binding.root)
 
+        binding.btnSalir.setOnClickListener{
+            finish()
+        }
     }
 }

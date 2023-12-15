@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listaCuentas1">
+        <item>ES2114650100722030876001</item>
+        <item>ES2114650100722030876002</item>
+        <item>ES2114650100722030876003</item>
+        <item>ES2114650100722030876004</item>
+    </string-array>
+
+    <string-array name="listaCuentas2">
+        <item>ES21146501007220308760021</item>
+        <item>ES21146501007220308760022</item>
+        <item>ES21146501007220308760023</item>
+        <item>ES21146501007220308760024</item>
+    </string-array>
+
+    <string-array name="listaMonedas1">
+        <item>€</item>
+        <item>$</item>
+        <item>¥</item>
+        <item>£</item>
+    </string-array>
+</resources>

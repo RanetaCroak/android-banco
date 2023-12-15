@@ -10,4 +10,21 @@
     <string name="bienvenido_user">Bienvenido user</string>
     <string name="userpic">userPic</string>
     <string name="bot_n_banco">Botón banco</string>
+    <string name="bienvenido_a_a_mi_banco">Bienvenido/a a mi banco</string>
+    <string name="promociones">PROMOCIONES</string>
+    <string name="cambiar_contrase_a">CAMBIAR CONTRASEÑA</string>
+    <string name="transferencias">TRANSFERENCIAS</string>
+    <string name="movimientos">MOVIMIENTOS</string>
+    <string name="cajeros">CAJEROS</string>
+    <string name="posici_n_global">POSICIÓN GLOBAL</string>
+    <string name="transferencias_">Transferencias</string>
+    <string name="elige_tu_cuenta">Elige tu cuenta</string>
+    <string name="cuenta_propia">Cuenta propia</string>
+    <string name="cuenta_ajena">Cuenta ajena</string>
+    <string name="escribe_el_n_m_cuenta_ajena">Escribe el núm. cuenta ajena</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="euro_sign">€</string>
+    <string name="enviar_justificante">Enviar justificante</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="cancelar">CANCELAR</string>
 </resources>

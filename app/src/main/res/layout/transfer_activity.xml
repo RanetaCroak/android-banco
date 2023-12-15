@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/layoutPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTransferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transferencias_"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="70dp"
+            android:textSize="40sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/layoutCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textTransferencia">
+
+            <TextView
+                android:id="@+id/textoCuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/elige_tu_cuenta"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinnerCuentas1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/textoCuenta"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroupCuentas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rCuentaPropia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cuenta_propia"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/rCuentaAjena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cuenta_ajena"
+                />
+
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinnerCuentas2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/textoCuenta"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editTextCuentaAjena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/escribe_el_n_m_cuenta_ajena"
+            android:layout_gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinnerCuentas2"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/txtCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/cantidad" />
+
+            <EditText
+                android:id="@+id/txtIntroducirDinero"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:id="@+id/simboloDinero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/euro_sign"
+                android:textSize="20sp" />
+
+
+            <Spinner
+                android:id="@+id/spinnerMonedas1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/justificante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar_justificante"
+            android:layout_gravity="center"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            >
+
+            <Button
+                android:id="@+id/btnEnviarDatos"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="@string/enviar"
+                android:layout_marginEnd="40dp"
+
+                />
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="@string/cancelar"
+                android:backgroundTint="@color/red"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
